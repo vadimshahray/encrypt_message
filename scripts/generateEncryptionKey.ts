@@ -11,4 +11,4 @@ for (let i = key.length - 1; i > 0; i--) {
   key[r] = temp
 }
 
-console.log('Ключ шифрования:', key.join(''))
+console.log('Ключ шифрования:', '\n' + key.join(''))
